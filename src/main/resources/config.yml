@@ -1,0 +1,15 @@
+settings:
+  enabled: true
+
+  # Если true — ники проверяются без учёта регистра
+  ignore-name-case: true
+
+  kick-message: "&cВход запрещён. Этот ник не привязан к вашему IP."
+
+allowed:
+  "188.113.187.195":
+    - "Zloba_"
+  "188.113.133.177":
+    - "jsdhgao"
+  "188.113.153.45":
+    - "rocko82"
