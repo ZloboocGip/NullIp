@@ -2,3 +2,11 @@ name: NullIp
 version: '${project.version}'
 main: org.nooll.nullip.NullIp
 api-version: '1.16'
+commands:
+  nullip:
+    aliases: [nip]
+    permission: nullip.admin
+
+permissions:
+  nullip.admin:
+    default: op
